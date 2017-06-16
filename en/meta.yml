@@ -1,0 +1,12 @@
+title: rpi-sensehat-single-pixel
+hero_image: images/banner.png
+description: rpi-sensehat-single-pixel description
+original_url: https://codeclubprojects.org/en-GB/scratch/rock-band
+theme: cc-prototype
+duration: 1 # 1, 2 or 3
+listed: false
+ingredient: false
+interests: "jokes/pranks, sports, art/design, photography, games, outside/weather/nature, space, animals, music/sound"
+technologies: "scratch, python, html/css, micro:bit"
+steps:
+  - title: Step one
