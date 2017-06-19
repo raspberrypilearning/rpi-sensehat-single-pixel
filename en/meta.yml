@@ -1,12 +1,12 @@
-title: rpi-sensehat-single-pixel
+title: Setting a single pixel on the Sense HAT
 hero_image: images/banner.png
-description: rpi-sensehat-single-pixel description
-original_url: https://codeclubprojects.org/en-GB/scratch/rock-band
+description: Learn how to set pixels with coordinates on the Sense HAT
+original_url:
 theme: cc-prototype
 duration: 1 # 1, 2 or 3
 listed: false
-ingredient: false
-interests: "jokes/pranks, sports, art/design, photography, games, outside/weather/nature, space, animals, music/sound"
-technologies: "scratch, python, html/css, micro:bit"
+ingredient: true
+interests: ""
+technologies: "python"
 steps:
   - title: Step one
