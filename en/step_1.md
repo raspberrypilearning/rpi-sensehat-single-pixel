@@ -1,8 +1,8 @@
-The `x` and `y` variables can be used to control which individual LED the `set_pixel` command should change. **X** is horizontal and ranges from `0` on the *left* to `7` on the *right*. **Y** is vertical and ranges from `0` at the *top* to `7` on the *bottom*. Therefore, an `x, y` coordinate of `0, 0` is the *top left* and an `x, y` coordinate of `7, 7` is the *bottom right*.
+You can use the `set_pixel` command to control individual LEDs on the Sense HAT. To do this, you set the `x` and `y` variables the `set_pixel` command takes. `x` indicates the HAT's horizontal axis, and can have a value between `0` (on the left) and `7` (on the right). `y` indicates the HAT's vertical axis, and can have a value between `0` (at the ltop) and `7` (at the bottom). Therefore, the `x, y` coordinates `0, 0` address the top left-hand LED, and the `x, y` coordinates `7, 7` address the bottom right-hand LED.
 
 ![](images/coordinates.png)
 
-You can get a different colour in each corner of the LED matrix. You will need to use the `set_pixel` command multiple times in your code like this:
+Let try out this example for setting a different colour in each corner of the Sense HAT's LED matrix. You will need to use the `set_pixel` command multiple times in your code, like this:
 
 ```python
 from sense_hat import SenseHat
