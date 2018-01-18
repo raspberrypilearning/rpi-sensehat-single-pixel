@@ -7,7 +7,7 @@ Let try out this example for setting a different colour in each corner of the Se
 ```python
 from sense_hat import SenseHat
 
-sense = SenseHat()
+sense = SenseHat() # This clears any pixels left on the Sense HAT. You may not need this step and may want to choose when to add it in.
 
 sense.clear()
 sense.set_pixel(0, 0, 255, 0, 0)
