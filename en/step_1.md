@@ -2,6 +2,10 @@ You can use the `set_pixel` command to control individual LEDs on the Sense HAT.
 
 ![](images/coordinates.png)
 
+The grid above corresponds with the Raspberry Pi when it is this way around:
+
+![](images/rpicoordinates.png)
+
 Let try out this example for setting a different colour in each corner of the Sense HAT's LED matrix. You will need to use the `set_pixel` command multiple times in your code, like this:
 
 ```python
