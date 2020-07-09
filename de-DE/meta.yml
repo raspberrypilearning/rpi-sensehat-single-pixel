@@ -1,8 +1,8 @@
 ---
-title: Setting a single pixel on the Sense HAT
+title: Setze ein einzelnes Pixel auf dem Sense HAT
 hero_image: images/banner.png
-description: Learn how to set pixels with coordinates on the Sense HAT
-theme: red #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+description: Erfahre, wie du Pixel mit Koordinaten im Sense HAT einstellen kannst
+theme: rot #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
 duration: 1 #1, 2 or 3
 listed: false
 ingredient: true
@@ -11,4 +11,4 @@ interests: ""
 technologies: "python"
 steps:
   - 
-    title: Step one
+    title: Schritt eins
