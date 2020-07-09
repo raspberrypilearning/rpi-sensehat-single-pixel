@@ -1,17 +1,17 @@
-You can use the `set_pixel` command to control individual LEDs on the Sense HAT. To do this, you set the `x` and `y` variables the `set_pixel` command takes. `x` indicates the HAT's horizontal axis, and can have a value between `0` (on the left) and `7` (on the right). `y` indicates the HAT's vertical axis, and can have a value between `0` (at the ltop) and `7` (at the bottom). Therefore, the `x, y` coordinates `0, 0` address the top left-hand LED, and the `x, y` coordinates `7, 7` address the bottom right-hand LED.
+يمكنك استخدام الأمر `set_pixel` للتحكم في مصابيح LED بشكل فردي على لوحة Sense HAT. للقيام بذلك، يمكنك ضبط المتغيّرات `x` و `y` التي يأخذ الأمر `set_pixel`. `x` يشير إلى المحور الأفقي لHAT، ويمكن أن يكون له قيمة بين `0` (على اليسار) و `7` (على اليمين). `y` يشير إلى المحور العمودي لـ HAT، ويمكن أن يكون له قيمة بين `0` (في الأعلى) و `7` (في الأسفل). لذلك، فإن الإحداثيات `x, y` في النقطة `0و0` تعنون الى الـ LED العلوي على اليسار، والإحداثيات ` x, y` للنقطة `7, 7 ` تعنون الى الـ LED أسفلي الى اليمين.
 
 ![](images/coordinates.png)
 
-The grid above corresponds with the Raspberry Pi when it is this way around:
+تتوافق الشبكة أعلاه مع Raspberry Pi عندما تكون بهذه الطريقة:
 
 ![](images/rpicoordinates.png)
 
-Let try out this example for setting a different colour in each corner of the Sense HAT's LED matrix. You will need to use the `set_pixel` command multiple times in your code, like this:
+دعونا نجرب هذا المثال لوضع لون مختلف في كل ركن من مصفوفة LED الخاصة بـ Sense HAT. ستحتاج إلى استخدام الأمر ` set_pixel ` عدة مرات في التعليمات البرمجية الخاصة بك ، مثل هذا:
 
 ```python
 from sense_hat import SenseHat
 
-sense = SenseHat() # This clears any pixels left on the Sense HAT. You may not need this step and may want to choose when to add it in.
+sens = SenseHat () # هذا يمسح أي وحدات بكسل متبقية في Sense HAT. قد لا تحتاج إلى هذه الخطوة وقد ترغب في اختيار وقت إضافتها.
 
 sense.clear()
 sense.set_pixel(0, 0, 255, 0, 0)
@@ -20,4 +20,4 @@ sense.set_pixel(7, 0, 0, 0, 255)
 sense.set_pixel(7, 7, 255, 0, 255)
 ```
 
-Test setting the colour of different pixels using the Sense HAT Emulator: <iframe src="https://trinket.io/embed/python/78c2595904" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
+اختبار إعداد لون البكسلات المختلفة باستخدام محاكي Sense HAT: <iframe src="https://trinket.io/embed/python/78c2595904" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
