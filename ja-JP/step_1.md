@@ -1,8 +1,8 @@
-You can use the `set_pixel` command to control individual LEDs on the Sense HAT. To do this, you set the `x` and `y` variables the `set_pixel` command takes. `x` indicates the HAT's horizontal axis, and can have a value between `0` (on the left) and `7` (on the right). `y` indicates the HAT's vertical axis, and can have a value between `0` (at the ltop) and `7` (at the bottom). Therefore, the `x, y` coordinates `0, 0` address the top left-hand LED, and the `x, y` coordinates `7, 7` address the bottom right-hand LED.
+Sense HATの個々のLEDを制御するには、`set_pixel`コマンドを使用します。 これを行うために、`set_pixel`コマンドが必要とする変数`x`および`y`を設定します。 `x`はHATの水平方向の位置を示し、`0`(左側)と`7`(右側)の間の値をとることができます。 `y`はHATの垂直方向の位置を示し、`0`(上側)と`7`(下側)の間の値をとることができます。 したがって、` x, y `座標` 0, 0 `は左上のLEDを、` x, y `座標` 7, 7 `は右下のLEDを指し示します。
 
 ![](images/coordinates.png)
 
-The grid above corresponds with the Raspberry Pi when it is this way around:
+上のグリッドは、Raspberry Piがこのような向きになっているときのものです。
 
 ![](images/rpicoordinates.png)
 
