@@ -1,7 +1,7 @@
 ---
-title: Setting a single pixel on the Sense HAT
+title: Ρύθμιση ενός εικονοστοιχείου (pixel) στο Sense HAT
 hero_image: images/banner.png
-description: Learn how to set pixels with coordinates on the Sense HAT
+description: Θα μάθεις πώς να ρυθμίζεις εικονοστοιχεία με συντεταγμένες στο Sense HAT
 theme: red #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
 duration: 1 #1, 2 or 3
 listed: false
@@ -11,4 +11,4 @@ interests: ""
 technologies: "python"
 steps:
   - 
-    title: Step one
+    title: Βήμα πρώτο
