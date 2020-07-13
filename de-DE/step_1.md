@@ -1,8 +1,8 @@
-Du kannst den Befehl `set_pixel` verwenden, um einzelne LEDs auf dem Sense HAT zu steuern. Um dies zu tun, setze die `x` und `y` Variablen, die der `set_pixel` Befehl verwendet. `x` zeigt die horizontale HAT-Achse an und kann einen Wert zwischen `0` (links) und `7` (rechts) haben. `x` zeigt die vertikale HAT-Achse an und kann einen Wert zwischen `0` (oben) und `7` (unten) haben. Daher adressieren die `x, y` Koordinaten `0, 0` die obere linke LED, und die `x, y` Koordinaten `7, 7` die untere rechte LED.
+Du kannst den Befehl `set_pixel` verwenden, um einzelne LEDs auf dem Sense HAT zu steuern. Um dies zu tun, setze die `x` und `y` Variablen, die der `set_pixel` Befehl verwendet. `x` zeigt die horizontale HAT-Achse an und kann einen Wert zwischen `0` (links) und `7` (rechts) haben. `y` zeigt die vertikale HAT-Achse an und kann einen Wert zwischen `0` (oben) und `7` (unten) haben. Daher adressieren die `x, y` Koordinaten `0, 0` die obere linke LED, und die `x, y` Koordinaten `7, 7` die untere rechte LED.
 
 ![](images/coordinates.png)
 
-Das Raster oben entspricht dem Raspberry Pi, wenn es so ist:
+Das Raster oben entspricht dem Raspberry Pi, wenn es so liegt:
 
 ![](images/rpicoordinates.png)
 
