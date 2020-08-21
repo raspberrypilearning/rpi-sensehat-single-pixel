@@ -1,0 +1,13 @@
+---
+title: Sense HAT에 단일 픽셀 설정하기
+hero_image: images/banner.png
+description: Sense HAT에서 좌표로 픽셀 설정하는 방법 알아보기
+theme: red #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+duration: 1 #1, 2 or 3
+listed: false
+ingredient: true
+copyedit: true
+interests: ""
+technologies: "python"
+steps:
+  - title: 1단계
