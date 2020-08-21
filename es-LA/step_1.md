@@ -1,4 +1,4 @@
-You can use the `set_pixel` command to control individual LEDs on the Sense HAT. To do this, you set the `x` and `y` variables the `set_pixel` command takes. `x` indicates the HAT's horizontal axis, and can have a value between `0` (on the left) and `7` (on the right). `y` indicates the HAT's vertical axis, and can have a value between `0` (at the ltop) and `7` (at the bottom). Therefore, the `x, y` coordinates `0, 0` address the top left-hand LED, and the `x, y` coordinates `7, 7` address the bottom right-hand LED.
+Puedes usar el comando `set_pixel` para controlar cada LED en Sense HAT. Para hacer esto, puedes configurar las variables `x` e `y` con el comando `set_pixel`. `x` indica el eje horizontal del HAT, y puede tomar valores entre `0` (a la izquierda) y `7` (a la derecha). `y` indica el eje vertical del HAT, y puede tomar valores entre `0` (superior) y `7` (inferior). Therefore, the `x, y` coordinates `0, 0` address the top left-hand LED, and the `x, y` coordinates `7, 7` address the bottom right-hand LED.
 
 ![](images/coordinates.png)
 
