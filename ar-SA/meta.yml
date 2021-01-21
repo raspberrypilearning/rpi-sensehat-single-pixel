@@ -2,7 +2,7 @@
 title: ضبط بكسل واحد على لوحة Sense HAT
 hero_image: images/banner.png
 description: تعلم كيفية ضبط البكسلات مع الإحداثيات على لوحة Sense HAT
-theme: red #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+theme: red  #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
 duration: 1 #1, 2 or 3
 listed: false
 ingredient: true
