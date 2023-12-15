@@ -20,4 +20,4 @@ sense.set_pixel(7, 0, 0, 0, 255)
 sense.set_pixel(7, 7, 255, 0, 255)
 ```
 
-Sense Hat एमुलेटर का उपयोग करके विभिन्न पिक्सेल (pixel) के रंग को सेट करके देखें: <iframe src="https://trinket.io/embed/python/78c2595904" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
+Sense Hat एमुलेटर का उपयोग करके विभिन्न पिक्सेल (pixel) के रंग को सेट करके देखें: <iframe src="https://trinket.io/embed/python/78c2595904" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
